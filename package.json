@@ -1,0 +1,33 @@
+{
+  "name": "bongo2-bot",
+  "version": "1.0.0",
+  "description": "Annoying discord bot revengeance",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "mocha --watch ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharkked/bongo2-bot.git"
+  },
+  "author": "sharkkii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharkked/bongo2-bot/issues"
+  },
+  "homepage": "https://github.com/sharkked/bongo2-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "sequelize": "^6.12.0-beta.3",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
